@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Domine', serif;
+}
+
+body{
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+  /* padding: 0 90px; */
+}
+
+.container{
+  margin: auto;
+  width: 80%;
+}
+
+/* inizio header */
+
+header, footer{
+  color: white;
+}
+
+.logo{
+  height: 80px;
+  vertical-align: middle;
+}
+
+hr{
+  color: white;
+}
+
+.header-bottom{
+  padding-left: 5px;
+  display: inline-block;
+}
+
+.notifica{
+  line-height: 60px;
+  font-size: 20px;
+}
+
+.evidenziato{
+  background-color: orange;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  /* vertical-align: middle; */
+  text-align: center;
+  line-height: 40px;
+}
+
+/* inizio main */
+
+.mail{
+  background-color: grey;
+  border: 1px solid black;
+  line-height: 30px;
+  font-size: 13px;
+}
+
+.unread, .read{
+  display: inline;
+
+}
+
+.testomail{
+  color: lightgrey;
+}
+
+#color-read{
+  background-color: white;
+}
+
+/* inizio footer */
+
+footer{
+  text-align: center;
+}
+.formattazione-footer{
+  font-size: 10px;
+}
